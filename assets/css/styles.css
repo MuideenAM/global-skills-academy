@@ -432,3 +432,52 @@ html[dir="rtl"] .service-card {
         padding: 23px;
     }
 }
+
+
+/* About page additions */
+
+.main-nav a.active {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.card-icon {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: var(--gold);
+    font-size: 2rem;
+}
+
+.text-link {
+    display: inline-block;
+    margin-top: 14px;
+    color: var(--blue);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.contact-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+    background: var(--light);
+    border-radius: 14px;
+}
+
+.contact-banner h2 {
+    margin-bottom: 12px;
+}
+
+@media (max-width: 700px) {
+    .contact-banner {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 25px;
+    }
+}
