@@ -1,0 +1,29 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 120 120"
+     role="img"
+     aria-label="Global Skills and Knowledge Academy logo placeholder">
+
+    <rect x="3" y="3" width="114" height="114"
+          rx="18" fill="#102747"/>
+
+    <rect x="9" y="9" width="102" height="102"
+          rx="14" fill="none"
+          stroke="#D5B66B" stroke-width="2"
+          stroke-dasharray="5 4"/>
+
+    <circle cx="60" cy="43" r="17"
+            fill="none" stroke="#D5B66B"
+            stroke-width="3"/>
+
+    <path d="M43 43h34M60 26v34"
+          stroke="#D5B66B" stroke-width="2"/>
+
+    <text x="60" y="84" text-anchor="middle"
+          fill="#FFFFFF" font-size="12"
+          font-family="Arial" font-weight="bold">LOGO</text>
+
+    <text x="60" y="98" text-anchor="middle"
+          fill="#D5B66B" font-size="7"
+          font-family="Arial">GSKA</text>
+</svg>
