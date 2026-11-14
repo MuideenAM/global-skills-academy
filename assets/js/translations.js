@@ -109,7 +109,65 @@ window.SITE_TRANSLATIONS = {
         aboutCtaEyebrow: "LET'S WORK TOGETHER",
         aboutCtaTitle: "Have a project, training need or idea?",
         aboutCtaText: "We welcome enquiries from individuals, schools, businesses and organisations.",
-        aboutCtaButton: "Contact Our Team"
+        aboutCtaButton: "Contact Our Team",
+
+        // Technology page
+        techPageEyebrow: "TECHNOLOGY SOLUTIONS & IT CONSULTANCY",
+        techPageTitle: "Practical Technology Solutions for Real-World Needs",
+        techPageIntro: "We help individuals, businesses and institutions address technology needs through software development, digital solutions, data services and IT consultancy.",
+        techExploreButton: "Explore Our Services",
+        techEnquiryButton: "Discuss a Project",
+
+        techIntroEyebrow: "OUR TECHNOLOGY APPROACH",
+        techIntroTitle: "Technology That Supports Progress",
+        techIntroText: "We focus on understanding the needs of each project and applying appropriate technology to develop useful, maintainable and practical solutions.",
+
+        techServicesEyebrow: "WHAT WE OFFER",
+        techServicesTitle: "Our Technology Services",
+        techServicesIntro: "Explore our technology and consultancy service areas. Each engagement begins with understanding your requirements and identifying an appropriate approach.",
+
+        techSoftwareTitle: "Software & Web Development",
+        techSoftwareText: "Development of websites, web applications and software solutions designed around organisational and business requirements.",
+        techSoftwareLink: "Discuss a software project →",
+
+        techDataTitle: "Data Analytics & Business Intelligence",
+        techDataText: "Data preparation, analysis, reporting and visualisation to help organisations understand information and support informed decisions.",
+        techDataLink: "Discuss a data project →",
+
+        techNetworkingTitle: "Networking & IT Infrastructure",
+        techNetworkingText: "Networking guidance, infrastructure planning, configuration support and practical IT solutions for organisations and learning environments.",
+        techNetworkingLink: "Discuss an IT requirement →",
+
+        techCyberTitle: "Cybersecurity Services",
+        techCyberText: "Cybersecurity awareness, security guidance, foundational assessments and support for improving responsible technology practices.",
+        techCyberLink: "Discuss a security requirement →",
+
+        techCloudTitle: "Cloud & Digital Infrastructure",
+        techCloudText: "Guidance and support for cloud platforms, deployment approaches, digital infrastructure and technology adoption.",
+        techCloudLink: "Discuss a cloud project →",
+
+        techConsultancyTitle: "IT Consultancy & Technical Support",
+        techConsultancyText: "Technology guidance, requirements assessment and practical recommendations to help organisations make informed IT decisions.",
+        techConsultancyLink: "Request IT consultation →",
+
+        techProcessEyebrow: "HOW WE WORK",
+        techProcessTitle: "From Requirements to Practical Solutions",
+        techProcessIntro: "We use a straightforward engagement process to understand your needs and agree on the way forward.",
+
+        techStepOneTitle: "Understand",
+        techStepOneText: "We discuss your objectives, current challenges and project requirements.",
+        techStepTwoTitle: "Plan",
+        techStepTwoText: "We identify a suitable approach, define the scope and discuss expected deliverables.",
+        techStepThreeTitle: "Develop",
+        techStepThreeText: "We undertake the agreed work and communicate progress throughout the engagement.",
+        techStepFourTitle: "Deliver",
+        techStepFourText: "We present the agreed solution and provide any handover or support included in the project.",
+
+        techCtaEyebrow: "START A CONVERSATION",
+        techCtaTitle: "Have a Technology Project in Mind?",
+        techCtaText: "Tell us what you want to achieve. We welcome enquiries from businesses, schools, institutions and individuals.",
+        techCtaButton: "Enquire About a Project"
+
     },
 
     ar: {
@@ -221,7 +279,64 @@ window.SITE_TRANSLATIONS = {
         aboutCtaEyebrow: "لنعمل معاً",
         aboutCtaTitle: "هل لديك مشروع أو احتياج تدريبي أو فكرة؟",
         aboutCtaText: "نرحب باستفسارات الأفراد والمدارس والشركات والمؤسسات.",
-        aboutCtaButton: "تواصل مع فريقنا"
+        aboutCtaButton: "تواصل مع فريقنا",
+
+        // صفحة الحلول التقنية
+        techPageEyebrow: "الحلول التقنية والاستشارات",
+        techPageTitle: "حلول تقنية عملية لتلبية الاحتياجات الواقعية",
+        techPageIntro: "نساعد الأفراد والشركات والمؤسسات على تلبية احتياجاتهم التقنية من خلال تطوير البرمجيات والحلول الرقمية وخدمات البيانات والاستشارات التقنية.",
+        techExploreButton: "اكتشف خدماتنا",
+        techEnquiryButton: "ناقش مشروعك",
+
+        techIntroEyebrow: "نهجنا في التكنولوجيا",
+        techIntroTitle: "تكنولوجيا تدعم التقدم",
+        techIntroText: "نركز على فهم احتياجات كل مشروع وتوظيف التكنولوجيا المناسبة لتطوير حلول عملية ومفيدة وسهلة الصيانة.",
+
+        techServicesEyebrow: "ما نقدمه",
+        techServicesTitle: "خدماتنا التقنية",
+        techServicesIntro: "اكتشف مجالات خدماتنا التقنية والاستشارية. يبدأ كل تعاون بفهم متطلباتك وتحديد النهج المناسب.",
+
+        techSoftwareTitle: "تطوير البرمجيات والمواقع الإلكترونية",
+        techSoftwareText: "تطوير المواقع الإلكترونية وتطبيقات الويب والحلول البرمجية وفقاً لمتطلبات المؤسسات والشركات.",
+        techSoftwareLink: "ناقش مشروعاً برمجياً ←",
+
+        techDataTitle: "تحليل البيانات وذكاء الأعمال",
+        techDataText: "إعداد البيانات وتحليلها وإعداد التقارير والتصورات البيانية لمساعدة المؤسسات على فهم المعلومات واتخاذ قرارات مدروسة.",
+        techDataLink: "ناقش مشروع بيانات ←",
+
+        techNetworkingTitle: "الشبكات والبنية التحتية لتقنية المعلومات",
+        techNetworkingText: "الإرشاد في مجال الشبكات وتخطيط البنية التحتية ودعم الإعداد والتكوين وتقديم حلول تقنية عملية للمؤسسات والبيئات التعليمية.",
+        techNetworkingLink: "ناقش احتياجاً تقنياً ←",
+
+        techCyberTitle: "خدمات الأمن السيبراني",
+        techCyberText: "التوعية بالأمن السيبراني والإرشاد الأمني والتقييمات الأساسية ودعم الممارسات المسؤولة في استخدام التكنولوجيا.",
+        techCyberLink: "ناقش احتياجاً أمنياً ←",
+
+        techCloudTitle: "الحوسبة السحابية والبنية التحتية الرقمية",
+        techCloudText: "الإرشاد والدعم في منصات الحوسبة السحابية وأساليب النشر والبنية التحتية الرقمية وتبني التكنولوجيا.",
+        techCloudLink: "ناقش مشروعاً سحابياً ←",
+
+        techConsultancyTitle: "الاستشارات التقنية والدعم الفني",
+        techConsultancyText: "الإرشاد التقني وتقييم المتطلبات وتقديم توصيات عملية لمساعدة المؤسسات على اتخاذ قرارات تقنية مدروسة.",
+        techConsultancyLink: "اطلب استشارة تقنية ←",
+
+        techProcessEyebrow: "كيف نعمل",
+        techProcessTitle: "من المتطلبات إلى الحلول العملية",
+        techProcessIntro: "نتبع خطوات عمل واضحة لفهم احتياجاتك والاتفاق على طريقة التنفيذ المناسبة.",
+
+        techStepOneTitle: "الفهم",
+        techStepOneText: "نناقش أهدافك والتحديات الحالية ومتطلبات المشروع.",
+        techStepTwoTitle: "التخطيط",
+        techStepTwoText: "نحدد النهج المناسب ونوضح نطاق العمل والمخرجات المتوقعة.",
+        techStepThreeTitle: "التطوير",
+        techStepThreeText: "ننفيذ العمل المتفق عليه ونتواصل معك بشأن التقدم خلال فترة التنفيذ.",
+        techStepFourTitle: "التسليم",
+        techStepFourText: "نقدم الحل المتفق عليه ونوفر أي تسليم للمعرفة أو دعم مشمول في المشروع.",
+
+        techCtaEyebrow: "لنبدأ الحوار",
+        techCtaTitle: "هل لديك مشروع تقني؟",
+        techCtaText: "أخبرنا بما ترغب في تحقيقه. نرحب باستفسارات الشركات والمدارس والمؤسسات والأفراد.",
+        techCtaButton: "استفسر عن مشروع"
     },
 
     yo: {
@@ -333,6 +448,65 @@ window.SITE_TRANSLATIONS = {
         aboutCtaEyebrow: "Ẹ JẸ́ KÁ ṢIṢẸ́ PAPỌ̀",
         aboutCtaTitle: "Ṣé o ní iṣẹ́ àkànṣe, àìní ìdánilẹ́kọ̀ọ́ tàbí èrò kan?",
         aboutCtaText: "A ń retí ìbéèrè láti ọ̀dọ̀ àwọn ènìyàn, ilé ẹ̀kọ́, ilé-iṣẹ́ àti àwọn àjọ.",
-        aboutCtaButton: "Kàn sí Ẹgbẹ́ Wa"
+        aboutCtaButton: "Kàn sí Ẹgbẹ́ Wa",
+
+        // Oju-iwe Àwọn Ojútùú Ìmọ̀ Ẹ̀rọ
+        techPageEyebrow: "ÀWỌN OJÚTÙÚ ÌMỌ̀ Ẹ̀RỌ ÀTI ÌMỌ̀RÀN IT",
+        techPageTitle: "Àwọn Ojútùú Ìmọ̀ Ẹ̀rọ Tó Wúlò Fún Àwọn Àìní Gidi",
+        techPageIntro: "A ń ran àwọn ènìyàn, àwọn ilé-iṣẹ́ àti àwọn àjọ lọ́wọ́ láti yanjú àwọn àìní ìmọ̀ ẹ̀rọ nípasẹ̀ ṣíṣe sọ́fítíwẹ́, àwọn ojútùú oní-nọ́ńbà, iṣẹ́ dátà àti ìmọ̀ràn IT.",
+        techExploreButton: "Wo Àwọn Iṣẹ́ Wa",
+        techEnquiryButton: "Bá Wa Sọ̀rọ̀ Nípa Iṣẹ́ Kan",
+
+        techIntroEyebrow: "Ọ̀NÀ TÍ A GBÀ Ń LO ÌMỌ̀ Ẹ̀RỌ",
+        techIntroTitle: "Ìmọ̀ Ẹ̀rọ Tó Ń Ṣe Àtìlẹ́yìn Fún Ìlọsíwájú",
+        techIntroText: "A ń sapá láti lóye ohun tí iṣẹ́ kọ̀ọ̀kan nílò, kí a sì lo ìmọ̀ ẹ̀rọ tó yẹ láti ṣe àwọn ojútùú tó wúlò, tó ṣeé tọ́jú àti tó lè ṣiṣẹ́ dáadáa.",
+
+        techServicesEyebrow: "OHUN TÍ A Ń PÈSÈ",
+        techServicesTitle: "Àwọn Iṣẹ́ Ìmọ̀ Ẹ̀rọ Wa",
+        techServicesIntro: "Wo àwọn ẹ̀ka iṣẹ́ ìmọ̀ ẹ̀rọ àti ìmọ̀ràn wa. A máa ń kọ́kọ́ lóye ohun tí o nílò kí a tó yan ọ̀nà tó yẹ.",
+
+        techSoftwareTitle: "Ṣíṣe Sọ́fítíwẹ́ àti Àwọn Ojú Òpó Wẹ́ẹ̀bù",
+        techSoftwareText: "Ṣíṣe àwọn ojú òpó wẹ́ẹ̀bù, àpù wẹ́ẹ̀bù àti àwọn ojútùú sọ́fítíwẹ́ tó bá àwọn ohun tí ilé-iṣẹ́ tàbí àjọ nílò mu.",
+        techSoftwareLink: "Bá wa sọ̀rọ̀ nípa iṣẹ́ sọ́fítíwẹ́ →",
+
+        techDataTitle: "Ìtúpalẹ̀ Dátà àti Ìmọ̀ràn Ìṣòwò",
+        techDataText: "Ìmúrasílẹ̀ dátà, ìtúpalẹ̀, ìròyìn àti àwòrán dátà láti ran àwọn àjọ lọ́wọ́ láti lóye ìwífún àti láti ṣe ìpinnu tó dá lórí ẹ̀rí.",
+        techDataLink: "Bá wa sọ̀rọ̀ nípa iṣẹ́ dátà →",
+
+        techNetworkingTitle: "Nẹ́tíwọ́ọ̀kì àti Ètò Ìmọ̀ Ẹ̀rọ",
+        techNetworkingText: "Ìmọ̀ràn lórí nẹ́tíwọ́ọ̀kì, ètò ìpìlẹ̀ ìmọ̀ ẹ̀rọ, ìrànlọ́wọ́ ìṣètò àti àwọn ojútùú IT fún àwọn àjọ àti àwọn ilé ẹ̀kọ́.",
+        techNetworkingLink: "Bá wa sọ̀rọ̀ nípa àìní IT →",
+
+        techCyberTitle: "Àwọn Iṣẹ́ Ààbò Ayélujára",
+        techCyberText: "Ìmọ̀ nípa ààbò ayélujára, ìmọ̀ràn ààbò, àyẹ̀wò ìpilẹ̀ àti ìrànlọ́wọ́ láti mú kí lílo ìmọ̀ ẹ̀rọ jẹ́ ohun tó ní ojúṣe.",
+        techCyberLink: "Bá wa sọ̀rọ̀ nípa ààbò →",
+
+        techCloudTitle: "Cloud àti Ètò Ìpìlẹ̀ Oní-nọ́ńbà",
+        techCloudText: "Ìmọ̀ràn àti ìrànlọ́wọ́ lórí àwọn pèpéle cloud, ọ̀nà fífi ètò sílẹ̀, ètò ìpìlẹ̀ oní-nọ́ńbà àti lílo ìmọ̀ ẹ̀rọ tuntun.",
+        techCloudLink: "Bá wa sọ̀rọ̀ nípa iṣẹ́ cloud →",
+
+        techConsultancyTitle: "Ìmọ̀ràn IT àti Ìrànlọ́wọ́ Ìmọ̀ Ẹ̀rọ",
+        techConsultancyText: "Ìmọ̀ràn ìmọ̀ ẹ̀rọ, àyẹ̀wò ohun tí a nílò àti ìmọ̀ràn tó wúlò láti ran àwọn àjọ lọ́wọ́ láti ṣe ìpinnu IT tó dára.",
+        techConsultancyLink: "Béèrè fún ìmọ̀ràn IT →",
+
+        techProcessEyebrow: "BÍ A ṢE Ń ṢIṢẸ́",
+        techProcessTitle: "Láti Ohun Tí A Nílò Sí Ojútùú Tó Wúlò",
+        techProcessIntro: "A ń tẹ̀lé àwọn ìgbésẹ̀ tó rọrùn láti lóye ohun tí o nílò àti láti fohùn ṣọ̀kan lórí ọ̀nà iṣẹ́.",
+
+        techStepOneTitle: "Lílóye",
+        techStepOneText: "A ń bá ọ sọ̀rọ̀ nípa àwọn ète rẹ, àwọn ìpèníjà tó wà àti ohun tí iṣẹ́ náà nílò.",
+        techStepTwoTitle: "Ètò",
+        techStepTwoText: "A ń yan ọ̀nà tó yẹ, ṣàlàyé ààlà iṣẹ́ àti àwọn ohun tí a retí pé a óò fi ránṣẹ́.",
+        techStepThreeTitle: "Ṣíṣe Ìṣẹ́",
+        techStepThreeText: "A ń ṣe iṣẹ́ tí a fohùn ṣọ̀kan lé lórí, a sì ń sọ fún ọ bí iṣẹ́ náà ṣe ń lọ.",
+        techStepFourTitle: "Fífi Iṣẹ́ Ránṣẹ́",
+        techStepFourText: "A ń fi ojútùú tí a fohùn ṣọ̀kan lé lórí fún ọ, pẹ̀lú ìtọ́sọ́nà tàbí ìrànlọ́wọ́ èyíkéyìí tí iṣẹ́ náà bá ní.",
+
+        techCtaEyebrow: "Ẹ JẸ́ KÁ BẸ̀RẸ̀ ÌJỌ̀RỌ̀",
+        techCtaTitle: "Ṣé O Ní Iṣẹ́ Ìmọ̀ Ẹ̀rọ Kan LỌ́KÀN?",
+        techCtaText: "Sọ fún wa ohun tí o fẹ́ ṣe àṣeyọrí. A ń retí ìbéèrè láti ọ̀dọ̀ àwọn ilé-iṣẹ́, ilé ẹ̀kọ́, àwọn àjọ àti ẹnì kọ̀ọ̀kan.",
+        techCtaButton: "Béèrè Nípa Iṣẹ́ Kan"
     }
 };
+
+
