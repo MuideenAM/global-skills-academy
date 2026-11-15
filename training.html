@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Academy | Global Skills & Knowledge Academy Limited</title>
+    <meta name="description" content="Explore practical 12-week technology learning programmes in web development, programming, networking, cybersecurity, data analytics, cloud computing and AI fundamentals.">
+    <meta name="theme-color" content="#102747">
+    <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/translations.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Global Skills & Knowledge Academy home">
+            <img src="assets/images/logo.svg" alt="Global Skills & Knowledge Academy logo" class="brand-logo">
+            <span class="brand-name">
+                <strong>GLOBAL SKILLS & KNOWLEDGE</strong>
+                <small>ACADEMY LIMITED</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation"
+                aria-expanded="false" aria-controls="mainNav">☰</button>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="index.html" data-i18n="navHome">Home</a>
+            <a href="about.html" data-i18n="navAbout">About Us</a>
+            <a href="technology.html" data-i18n="navTechnology">Technology</a>
+            <a href="training.html" class="active" aria-current="page" data-i18n="navTraining">Training</a>
+            <a href="education.html" data-i18n="navEducation">Education Solutions</a>
+            <a href="research.html" data-i18n="navResearch">Research</a>
+            <a href="contact.html" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <label class="language-label" for="languageSelect">
+                <span class="visually-hidden">Select language</span>
+                <select id="languageSelect" aria-label="Select language">
+                    <option value="en">English</option>
+                    <option value="ar">العربية</option>
+                    <option value="yo">Yorùbá</option>
+                </select>
+            </label>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="eyebrow" data-i18n="trainingPageEyebrow">ACADEMY & PROFESSIONAL TRAINING</span>
+            <h1 data-i18n="trainingPageTitle">Build Practical Skills for a Changing World</h1>
+            <p data-i18n="trainingPageIntro">Explore structured, project-based learning programmes designed to help learners develop practical technology skills through guided study, hands-on exercises and portfolio projects.</p>
+            <div class="hero-actions">
+                <a href="#trainingProgrammes" class="btn btn-primary" data-i18n="trainingPageExplore">Explore Programmes</a>
+                <a href="#trainingEnquiry" class="btn btn-outline" data-i18n="trainingPageEnquire">Enquire About Training</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container narrow-content">
+            <span class="section-label" data-i18n="trainingFormatEyebrow">HOW OUR PROGRAMMES WORK</span>
+            <h2 data-i18n="trainingFormatTitle">A Practical 12-Week Learning Journey</h2>
+            <p data-i18n="trainingFormatText">Each programme is structured around a 12-week learning pathway. Learners work through weekly topics, practise with guided exercises, complete assignments and develop a final project. Instructor-led support can be arranged for cohorts and individual learners.</p>
+        </div>
+        <div class="container" style="margin-top:32px">
+            <div class="service-grid">
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">12</div>
+                    <h3 data-i18n="trainingDuration">12 weeks</h3>
+                    <p data-i18n="trainingMode">Self-paced with guided support</p>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">✓</div>
+                    <h3 data-i18n="trainingProjects">Practical assignments and a final project</h3>
+                    <p data-i18n="trainingProgrammesIntro">Choose a learning pathway that matches your interests and goals.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light" id="trainingProgrammes">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label" data-i18n="trainingProgrammesEyebrow">LEARNING PATHWAYS</span>
+                <h2 data-i18n="trainingProgrammesTitle">Explore Our Technology Programmes</h2>
+                <p data-i18n="trainingProgrammesIntro">Choose a learning pathway that matches your interests and goals. Programme delivery, schedule and instructor-led support are discussed during enrolment.</p>
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">01</div>
+                    <h3 data-i18n="trainingWebTitle">Web Development</h3>
+                    <p data-i18n="trainingWebText">Learn to build responsive websites and interactive web experiences using HTML, CSS and JavaScript.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingWebOutcomes">Build responsive pages · Add interactivity · Publish a portfolio website</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourceWeb">MDN Web Docs</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">02</div>
+                    <h3 data-i18n="trainingPythonTitle">Python Programming</h3>
+                    <p data-i18n="trainingPythonText">Develop programming foundations with Python, working with variables, control flow, functions, data structures and files.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingPythonOutcomes">Write Python programmes · Work with data and files · Build a practical application</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourcePython">Official Python Tutorial</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">03</div>
+                    <h3 data-i18n="trainingJavaTitle">Java Programming</h3>
+                    <p data-i18n="trainingJavaText">Learn object-oriented programming with Java, from language fundamentals to classes, collections and exception handling.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingJavaOutcomes">Understand OOP · Use Java collections · Build a console or desktop project</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://dev.java/learn/" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourceJava">dev.java Learning</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">04</div>
+                    <h3 data-i18n="trainingDotnetTitle">C# / .NET Development</h3>
+                    <p data-i18n="trainingDotnetText">Explore C# programming and the .NET ecosystem, including object-oriented concepts, data access and application structure.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingDotnetOutcomes">Write C# code · Work with .NET tools · Build a small .NET application</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourceDotnet">Microsoft Learn: C#</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">05</div>
+                    <h3 data-i18n="trainingCloudTitle">Cloud Computing</h3>
+                    <p data-i18n="trainingCloudText">Understand cloud concepts, core services, identity and access, networking, storage, security fundamentals and deployment.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingCloudOutcomes">Explain cloud models · Explore core cloud services · Deploy a guided project</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://skillbuilder.aws/" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourceCloud">AWS Skill Builder</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">06</div>
+                    <h3 data-i18n="trainingAITitle">AI Fundamentals</h3>
+                    <p data-i18n="trainingAIText">Build a responsible foundation in artificial intelligence, machine learning concepts, data, common AI applications and ethics.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingAIOutcomes">Explain AI concepts · Explore practical AI tools · Evaluate responsible use</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourceAI">Google Machine Learning Crash Course</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">07</div>
+                    <h3 data-i18n="trainingNetworkingTitle">Networking</h3>
+                    <p data-i18n="trainingNetworkingText">Build a foundation in computer networks, devices, network media and protocols, IP addressing, wireless access, routing and basic network troubleshooting.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingNetworkingOutcomes">Explain network concepts · Configure a basic LAN and wireless router · Test and troubleshoot connectivity</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://www.netacad.com/courses/networking-basics/how-routers-work?courseLang=en-US" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourceNetworking">Cisco Networking Academy: Networking Basics</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">08</div>
+                    <h3 data-i18n="trainingCyberTitle">Cybersecurity</h3>
+                    <p data-i18n="trainingCyberText">Develop an understanding of common cyber threats, attacks and vulnerabilities, online safety, data and privacy protection, and the ways organisations defend their systems.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingCyberOutcomes">Recognise common threats · Apply safe security practices · Explain basic organisational protection</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://www.netacad.com/courses/introduction-to-cybersecurity" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourceCyber">Cisco Networking Academy: Introduction to Cybersecurity</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon" aria-hidden="true">09</div>
+                    <h3 data-i18n="trainingDataTitle">Data Analytics</h3>
+                    <p data-i18n="trainingDataText">Learn how to collect, clean, organise and analyse data using spreadsheets, SQL and data visualisation tools. Explore basic statistics, dashboards, data storytelling and responsible data use.</p>
+                    <p><strong data-i18n="trainingDuration">12 weeks</strong></p>
+                    <p data-i18n="trainingDataOutcomes">Prepare and analyse datasets · Query relational databases with SQL · Create visual reports and a portfolio project</p>
+                    <p><strong data-i18n="trainingResources">Free learning resources</strong></p>
+                    <a href="https://www.netacad.com/courses/data-analytics-essentials" target="_blank" rel="noopener noreferrer" data-i18n="trainingResourceData">Cisco Networking Academy: Data Analytics Essentials</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container narrow-content">
+            <span class="section-label" data-i18n="trainingDeliveryEyebrow">LEARNING SUPPORT</span>
+            <h2 data-i18n="trainingDeliveryTitle">Learn Independently, With Support</h2>
+            <p data-i18n="trainingDeliveryText">The learning pathway combines self-study with practical work. Instructor-led sessions may be arranged for enrolled groups or learners who need structured guidance. Specific dates, fees and availability are confirmed before enrolment.</p>
+        </div>
+    </section>
+
+    <section class="section section-light" id="trainingEnquiry">
+        <div class="container">
+            <div class="contact-panel">
+                <div>
+                    <span class="section-label" data-i18n="trainingCtaEyebrow">START YOUR LEARNING JOURNEY</span>
+                    <h2 data-i18n="trainingCtaTitle">Ready to Develop a New Skill?</h2>
+                    <p data-i18n="trainingCtaText">Tell us which programme interests you and we will share information about the learning pathway, delivery options and enrolment.</p>
+                </div>
+                <a class="btn btn-primary"
+                   href="https://wa.me/2349062152631?text=Hello%20Global%20Skills%20%26%20Knowledge%20Academy%2C%20I%20would%20like%20to%20enquire%20about%20your%20training%20programmes."
+                   target="_blank" rel="noopener noreferrer"
+                   data-i18n="trainingCtaButton">Enquire on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-content">
+        <div>
+            <strong>GLOBAL SKILLS & KNOWLEDGE ACADEMY LIMITED</strong>
+            <p data-i18n="footerTagline">Empowering Skills. Transforming Futures.</p>
+        </div>
+        <p data-i18n="footerLocation">Ibadan, Oyo State, Nigeria</p>
+        <p>+234 906 215 2631</p>
+        <p>
+            © <span id="currentYear"></span>
+            Global Skills & Knowledge Academy Limited.
+            <span data-i18n="rights">All rights reserved.</span>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
