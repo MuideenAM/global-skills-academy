@@ -123,6 +123,17 @@ a {
     cursor: pointer;
 }
 
+/* Hamburger menu icon */
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    background: var(--navy);
+    border-radius: 3px;
+}
+
 .hero {
     background:
         linear-gradient(110deg, rgba(16,39,71,.97),
@@ -480,4 +491,144 @@ html[dir="rtl"] .service-card {
         flex-direction: column;
         padding: 25px;
     }
+}
+
+
+/* Privacy Notice page */
+.privacy-content {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.privacy-content h2 {
+    color: var(--navy);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.privacy-content p,
+.privacy-content li {
+    color: var(--text, #444);
+}
+
+.privacy-content ul {
+    padding-inline-start: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.privacy-updated {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+[dir="rtl"] .privacy-content {
+    text-align: right;
+}
+
+/* Programmes and Resources navigation dropdown */
+
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown > summary {
+    list-style: none;
+    cursor: pointer;
+    color: var(--navy);
+    font-size: inherit;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.nav-dropdown > summary::-webkit-details-marker {
+    display: none;
+}
+
+.nav-dropdown > summary::after {
+    content: " ▾";
+    font-size: 11px;
+}
+
+.nav-dropdown > summary:hover {
+    color: var(--blue);
+}
+
+.nav-dropdown[open] > summary {
+    color: var(--blue);
+}
+
+.nav-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    min-width: 225px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 8px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(16, 39, 71, 0.12);
+    z-index: 200;
+}
+
+.nav-dropdown-menu a {
+    display: block;
+    padding: 10px 12px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+    background: var(--light-grey);
+    color: var(--blue);
+}
+
+/* Right-to-left navigation */
+
+html[dir="rtl"] .nav-dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+/* Mobile dropdown */
+
+@media (max-width: 850px) {
+    .nav-dropdown {
+        width: 100%;
+    }
+
+    .nav-dropdown > summary {
+        display: block;
+        padding: 7px 0;
+    }
+
+    .nav-dropdown-menu {
+        position: static;
+        min-width: 0;
+        width: 100%;
+        padding: 5px 10px;
+        border: 0;
+        border-left: 2px solid var(--border);
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    html[dir="rtl"] .nav-dropdown-menu {
+        border-left: 0;
+        border-right: 2px solid var(--border);
+    }
+
+    .nav-dropdown-menu a {
+        padding: 8px 12px;
+        white-space: normal;
+    }
+}
+
+.main-nav .nav-dropdown > summary.active {
+    color: var(--blue);
+    font-weight: 700;
 }
